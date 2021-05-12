@@ -5,50 +5,6 @@
     "functions": [
       {
         "parentPluginId": "discover",
-        "id": "def-public.createSavedSearchesLoader",
-        "type": "Function",
-        "tags": [],
-        "label": "createSavedSearchesLoader",
-        "description": [],
-        "signature": [
-          "({ savedObjectsClient, savedObjects }: Services) => ",
-          {
-            "pluginId": "savedObjects",
-            "scope": "public",
-            "docId": "kibSavedObjectsPluginApi",
-            "section": "def-public.SavedObjectLoader",
-            "text": "SavedObjectLoader"
-          }
-        ],
-        "source": {
-          "path": "src/plugins/discover/public/saved_searches/saved_searches.ts",
-          "lineNumber": 18
-        },
-        "deprecated": false,
-        "children": [
-          {
-            "parentPluginId": "discover",
-            "id": "def-public.createSavedSearchesLoader.$1",
-            "type": "Object",
-            "tags": [],
-            "label": "{ savedObjectsClient, savedObjects }",
-            "description": [],
-            "signature": [
-              "Services"
-            ],
-            "source": {
-              "path": "src/plugins/discover/public/saved_searches/saved_searches.ts",
-              "lineNumber": 18
-            },
-            "deprecated": false,
-            "isRequired": true
-          }
-        ],
-        "returnComment": [],
-        "initialIsOpen": false
-      },
-      {
-        "parentPluginId": "discover",
         "id": "def-public.loadSharingDataHelpers",
         "type": "Function",
         "tags": [],
